@@ -9,7 +9,7 @@
 baseurl = "https://hang-zou.github.io/"
 
 # Title of your site
-title = "Academic"
+title = "Hang's Page"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -52,19 +52,21 @@ enableGitInfo = true
 
   # Your details.
   name = "Hang Zou"
-  role = "PhD student at Labaratoires des Sgniaux et Systèmes CentraleSupelec"
+  role = "PhD student at Labaratoires des Sgniaux et Systèmes(L2S)"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "CentraleSupélec & University of Paris-Scalay", url = "https://www.universite-paris-saclay.fr/fr" } ]
+  organizations = [ { name = "CentraleSupélec", url = "http://www.centralesupelec.fr/" },
+  {name = "University of Paris-Saclay", url = "https://www.universite-paris-saclay.fr/fr" }
+  ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "portrait_Hang_ZOU.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "hang.zou@l2s.centralesupelc.fr"
-  address = "Building Breguet, 3 rue Joliot Curie, 91192 Gif sur Yvette, France"
-  office_hours = "09:00-11:30 & 14:00-19:30 Monday to Friday"
+  address = " B2-26(RTE Chair), Building Breguet, 3 rue Joliot Curie, 91192 Gif sur Yvette, France"
+  office_hours = "09:00-11:30 & 14:00-19:30, Monday to Friday"
   phone = "+33659816187"
   skype = "null"
   telegram = ""
@@ -89,10 +91,10 @@ enableGitInfo = true
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  map = 0
+  map = 1
   map_api_key = ""
-  latitude = " 2.164564"
-  longitude = "48.708809"
+  latitude = "48.708809"
+  longitude = "2.164564"
   zoom = 15
 
   # SITE SETUP
@@ -103,7 +105,7 @@ enableGitInfo = true
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "classic"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = ""
@@ -128,14 +130,14 @@ enableGitInfo = true
   reading_time = true
 
   # Display comment count? Requires commenting to be enabled.
-  comment_count = true
+  comment_count = false
 
   # Display next/previous section pager?
   section_pager = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -253,22 +255,22 @@ enableGitInfo = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    link = "hang.zou@l2s.centralesupelec.fr"  # For a direct email link, use "mailto:test@example.org".
 
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
+    link = ""
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = ""
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    link = "https://github.com/hang-zou"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
