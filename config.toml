@@ -52,7 +52,7 @@ enableGitInfo = true
 
   # Your details.
   name = "Hang Zou"
-  role = "PhD student at Labaratoires des Sgniaux et Systèmes"
+  role = "PhD student at Labaratoires des Sgniaux et Systèmes CentraleSupelec"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
